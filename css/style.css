@@ -20,7 +20,7 @@ body {
 }
 
 #top {
-  width: 100wh;
+  width: 100vw;
   height: 100vh;
   border: 2px solid red;
   display: -webkit-box;
@@ -32,6 +32,13 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+#top .avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
 }
 
 #middle {
@@ -80,9 +87,47 @@ body {
 }
 
 #bottom {
-  width: 100wh;
+  width: 100vw;
   height: 100vh;
   border: 2px solid yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#bottom .main-work {
+  width: 90vw;
+  height: 80vh;
+  border: 2px solid blue;
+}
+
+#bottom .main-work .work-top {
+  width: 90vw;
+  height: 40vh;
+  border-bottom: 1px solid  l;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#bottom .main-work .work-top .work-sect1 {
+  width: 45vw;
+  border-right: 1px solid lightgray;
+}
+
+#bottom .main-work .work-bottom {
+  width: 90vw;
+  height: 40vh;
+  border: 2px solid green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .navbar {
@@ -113,12 +158,5 @@ body {
 .links a {
   text-decoration: none;
   color: black;
-}
-
-.avatar {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  border: 2px solid yellow;
 }
 /*# sourceMappingURL=style.css.map */

@@ -2,10 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-// h1 {
-//     color: green;
-// }
-
 body {
     margin: 0;
     padding: 0;
@@ -19,12 +15,20 @@ body {
 }
 
 #top {
-    width: 100wh;
+    width: 100vw;
     height: 100vh;
     border: 2px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    .avatar {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 1px solid lightgray;;
+    }
+    
 }
 
 #middle {
@@ -62,9 +66,37 @@ body {
 }
 
 #bottom {
-    width: 100wh;
+    width: 100vw;
     height: 100vh;
     border: 2px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .main-work {
+        width: 90vw;
+        height: 80vh;
+        border: 2px solid blue;
+
+        .work-top {
+            width: 90vw;
+            height: 40vh;
+            border-bottom: 1px solid  l;
+            display: flex;
+
+            .work-sect1 {
+                width: 45vw;
+                border-right: 1px solid lightgray;
+            }
+        }
+
+        .work-bottom {
+            width: 90vw;
+            height: 40vh;
+            border: 2px solid green;
+            display: flex;
+        }
+    }
 }
 
 .navbar {
@@ -88,11 +120,4 @@ body {
         text-decoration: none;
         color: black;
     }
-}
-
-.avatar {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    border: 2px solid yellow;
 }
