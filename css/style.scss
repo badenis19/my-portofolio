@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body {
@@ -28,7 +29,6 @@ body {
         border-radius: 50%;
         border: 1px solid lightgray;;
     }
-    
 }
 
 #middle {
@@ -44,7 +44,6 @@ body {
         border: 2px solid green;
         width: 80vw;
         height: 20vh;
-        // background: red;
     }
 
     .skills {
@@ -54,7 +53,6 @@ body {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        // background: red;
 
         .box {
             border: 2px solid green;
@@ -62,7 +60,6 @@ body {
             height: 30vh;
         }
     }
-
 }
 
 #bottom {
@@ -87,6 +84,51 @@ body {
             .work-sect1 {
                 width: 45vw;
                 border-right: 1px solid lightgray;
+                display: flex;
+
+                .image-area {
+                    height: 40vh;
+                    width: 70%;
+                    border: 2px solid red;
+                    
+                    .img-left-top {
+                        height: 50%;
+                        width: 50%;
+                        border: 2px solid black;
+                    }
+
+                    .img-right-bottom {
+                        height: 50%;
+                        width: 50%;
+                        border: 2px solid black;
+                    }
+                }
+
+                .description {
+                    height: 40vh;
+                    width: 30%;
+                    border: 2px solid red;
+                    
+                }
+            }
+
+            .work-sect2 {
+                width: 45vw;
+                display: flex;
+
+                .image-area {
+                    height: 40vh;
+                    width: 70%;
+                    border: 2px solid red;
+                    display: flex;
+                }
+
+                .description {
+                    height: 40vh;
+                    width: 30%;
+                    border: 2px solid red;
+                    // background: red;
+                }
             }
         }
 
@@ -121,3 +163,4 @@ body {
         color: black;
     }
 }
+

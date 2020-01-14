@@ -1,5 +1,7 @@
 html {
   scroll-behavior: smooth;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -119,6 +121,55 @@ body {
 #bottom .main-work .work-top .work-sect1 {
   width: 45vw;
   border-right: 1px solid lightgray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#bottom .main-work .work-top .work-sect1 .image-area {
+  height: 40vh;
+  width: 70%;
+  border: 2px solid red;
+}
+
+#bottom .main-work .work-top .work-sect1 .image-area .img-left-top {
+  height: 50%;
+  width: 50%;
+  border: 2px solid black;
+}
+
+#bottom .main-work .work-top .work-sect1 .image-area .img-right-bottom {
+  height: 50%;
+  width: 50%;
+  border: 2px solid black;
+}
+
+#bottom .main-work .work-top .work-sect1 .description {
+  height: 40vh;
+  width: 30%;
+  border: 2px solid red;
+}
+
+#bottom .main-work .work-top .work-sect2 {
+  width: 45vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#bottom .main-work .work-top .work-sect2 .image-area {
+  height: 40vh;
+  width: 70%;
+  border: 2px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#bottom .main-work .work-top .work-sect2 .description {
+  height: 40vh;
+  width: 30%;
+  border: 2px solid red;
 }
 
 #bottom .main-work .work-bottom {
