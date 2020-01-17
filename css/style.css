@@ -3,7 +3,6 @@ html {
   scroll-behavior: smooth;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #F7F7F7;
 }
 
 body {
@@ -62,6 +61,12 @@ body {
 #top {
   width: 100vw;
   height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1546307401-225bc045bb44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80");
+  background-position: center;
+}
+
+#top h1, #top p {
+  color: white;
 }
 
 #top .top-container {
@@ -89,6 +94,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -111,6 +118,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+#top .top-container .container-bottom-part i {
+  color: white;
 }
 
 #top .top-container .container-bottom-part i:hover {
@@ -136,9 +147,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -151,6 +159,7 @@ body {
 }
 
 #middle .skills {
+  border: 2px solid green;
   width: 80vw;
   height: 40vh;
   display: -webkit-box;
@@ -176,6 +185,8 @@ body {
 
 #middle .skills .box i {
   text-align: center;
+  margin-right: 20px;
+  color: #3B638A;
 }
 
 #middle .skills .box .icon-container {
@@ -200,6 +211,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #bottom .main-work {
@@ -248,7 +263,6 @@ body {
 #bottom .main-work .work-top .work-sect1 .image-area .img-top .img-top-left {
   height: 100%;
   width: 50%;
-  background-image: url("https://images.unsplash.com/photo-1577800351051-ca84c38a4152?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
   -webkit-box-shadow: 0 0 5px #e6e6e6;
           box-shadow: 0 0 5px #e6e6e6;
 }
@@ -270,15 +284,15 @@ body {
   width: 50%;
   -webkit-box-shadow: 0 0 5px #e6e6e6;
           box-shadow: 0 0 5px #e6e6e6;
-  background-image: url("https://images.unsplash.com/photo-1577800351051-ca84c38a4152?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
 }
 
 #bottom .main-work .work-top .work-sect1 .description {
   height: 40vh;
   width: 30%;
+  margin: 20px;
 }
 
-#bottom .main-work .work-top .work-sect1 .description p, #bottom .main-work .work-top .work-sect1 .description h2 {
+#bottom .main-work .work-top .work-sect1 .description p, #bottom .main-work .work-top .work-sect1 .description h3 {
   text-align: center;
 }
 
@@ -338,9 +352,10 @@ body {
 #bottom .main-work .work-top .work-sect2 .description {
   height: 40vh;
   width: 30%;
+  margin: 20px;
 }
 
-#bottom .main-work .work-top .work-sect2 .description p, #bottom .main-work .work-top .work-sect2 .description h2 {
+#bottom .main-work .work-top .work-sect2 .description p, #bottom .main-work .work-top .work-sect2 .description h3 {
   text-align: center;
 }
 
@@ -389,11 +404,12 @@ body {
   height: 95%;
   -webkit-box-shadow: 0 0 5px #e6e6e6;
           box-shadow: 0 0 5px #e6e6e6;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .fab, .fas {
   font-size: 60px;
   text-decoration: none;
-  color: grey;
 }
 /*# sourceMappingURL=style.css.map */

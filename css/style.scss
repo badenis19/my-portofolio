@@ -3,7 +3,7 @@
 html {
     scroll-behavior: smooth;
     box-sizing: border-box;
-    background-color: #F7F7F7;
+    // background-color: #F7F7F7;
 }
 
 body {
@@ -53,7 +53,12 @@ body {
 #top {
     width: 100vw;
     height: 100vh;
-    // padding-top: 120px;
+    background-image: url("https://images.unsplash.com/photo-1546307401-225bc045bb44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80");
+    background-position: center;
+    
+    h1, p {
+        color: white;
+    }
 
     .top-container {
         height: 100%;
@@ -68,7 +73,7 @@ body {
             // border: 2px solid black;
             display: flex;
             flex-direction: column;
-            // justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
             padding-top: 100px;
         }
@@ -81,6 +86,10 @@ body {
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
+
+                i {
+                    color: white;
+                }
 
                 i:hover {
                     color: black;
@@ -103,7 +112,7 @@ body {
     // border: 2px solid green;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    // justify-content: space-evenly;
     align-items: center;
 
     .about {
@@ -114,7 +123,7 @@ body {
     }
 
     .skills {
-        // border: 2px solid green;
+        border: 2px solid green;
         width: 80vw;
         height: 40vh;
         display: flex;
@@ -133,6 +142,8 @@ body {
 
             i {
                 text-align: center;
+                margin-right: 20px;;
+                color: #3B638A;
             }
 
             .icon-container {
@@ -151,6 +162,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
     .main-work {
         width: 90vw;
@@ -186,7 +198,7 @@ body {
                             height: 100%;
                             width: 50%;
                             // border: 2px solid green;
-                            background-image: url("https://images.unsplash.com/photo-1577800351051-ca84c38a4152?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+                            // background-image: url("https://images.unsplash.com/photo-1577800351051-ca84c38a4152?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
                             box-shadow: 0 0 5px rgb(230,230,230);
                         }
 
@@ -204,7 +216,7 @@ body {
                             width: 50%;
                             box-shadow: 0 0 5px rgb(230,230,230);
                             // border: 1px solid green;
-                            background-image: url("https://images.unsplash.com/photo-1577800351051-ca84c38a4152?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+                            // background-image: url("https://images.unsplash.com/photo-1577800351051-ca84c38a4152?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
                         }
                     }
                 }
@@ -212,12 +224,13 @@ body {
                 .description {
                     height: 40vh;
                     width: 30%;
+                    // box-shadow: 0 0 5px rgb(230,230,230);
+                    margin: 20px;
                     // border: 2px solid red;
                     
-                    p, h2 {
+                    p, h3 {
                         text-align: center;
-                    }
-                    
+                    }        
                 }
             }
 
@@ -274,9 +287,12 @@ body {
                     // background: red;
                     
 
-                    p, h2 {
+                    margin: 20px;
+                    // border: 2px solid red;
+                    
+                    p, h3 {
                         text-align: center;
-                    }
+                    }    
                 }
             }
         }
@@ -316,6 +332,7 @@ body {
                 height: 95%;
                 // border: 2px solid black;
                 box-shadow: 0 0 5px rgb(230,230,230);
+                object-fit: cover;
             }
         }
     }
@@ -324,6 +341,6 @@ body {
 .fab, .fas {
     font-size: 60px;
     text-decoration: none;
-    color: grey;
+    // color: grey;
 }
 
