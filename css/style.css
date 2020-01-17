@@ -138,6 +138,7 @@ body {
 }
 
 #middle {
+  padding-top: 50px;
   width: 100vw;
   height: 100vh;
   display: -webkit-box;
@@ -159,8 +160,7 @@ body {
 }
 
 #middle .skills {
-  border: 2px solid green;
-  width: 80vw;
+  width: 60vw;
   height: 40vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -197,6 +197,17 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 35px;
+}
+
+#middle .technologies {
+  width: 80vw;
+  height: 20vh;
+  -webkit-box-shadow: 0 0 5px #e6e6e6;
+          box-shadow: 0 0 5px #e6e6e6;
+}
+
+#middle .technologies h3 {
+  text-align: center;
 }
 
 #bottom {

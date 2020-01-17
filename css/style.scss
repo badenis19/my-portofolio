@@ -107,6 +107,7 @@ body {
 }
 
 #middle {
+    padding-top: 50px;
     width: 100vw;
     height: 100vh;
     // border: 2px solid green;
@@ -123,8 +124,8 @@ body {
     }
 
     .skills {
-        border: 2px solid green;
-        width: 80vw;
+        // border: 2px solid green;
+        width: 60vw;
         height: 40vh;
         display: flex;
         justify-content: space-around;
@@ -151,6 +152,16 @@ body {
                 justify-content: center;
                 margin-bottom: 35px;
             }
+        }
+    }
+
+    .technologies {
+        width: 80vw;
+        height: 20vh;
+        box-shadow: 0 0 5px rgb(230,230,230);
+
+        h3 {
+            text-align: center;
         }
     }
 }
