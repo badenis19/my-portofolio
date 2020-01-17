@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 html {
   scroll-behavior: smooth;
   -webkit-box-sizing: border-box;
@@ -8,6 +9,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Raleway', sans-serif;
 }
 
 .main {
@@ -34,6 +36,27 @@ body {
   z-index: 900;
   border-bottom: 1px solid lightgray;
   background: white;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: gray;
+}
+
+.links a:hover {
+  color: black;
 }
 
 #top {
@@ -90,11 +113,17 @@ body {
           align-items: center;
 }
 
+#top .top-container .container-bottom-part i:hover {
+  color: black;
+}
+
 #top .avatar {
   width: 300px;
   height: 300px;
   border-radius: 50%;
   border: 1px solid lightgray;
+  -webkit-animation: float 6s ease-in-out infinite;
+          animation: float 6s ease-in-out infinite;
 }
 
 #middle {
@@ -116,9 +145,9 @@ body {
 }
 
 #middle .about {
-  border: 2px solid green;
   width: 80vw;
   height: 20vh;
+  text-align: center;
 }
 
 #middle .skills {
@@ -141,10 +170,27 @@ body {
           box-shadow: 0 0 5px #e6e6e6;
 }
 
+#middle .skills .box h3, #middle .skills .box p {
+  text-align: center;
+}
+
+#middle .skills .box i {
+  text-align: center;
+}
+
+#middle .skills .box .icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 35px;
+}
+
 #bottom {
   width: 100vw;
   height: 100vh;
-  border: 2px solid yellow;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -345,28 +391,9 @@ body {
           box-shadow: 0 0 5px #e6e6e6;
 }
 
-.links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 20%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.links a {
-  text-decoration: none;
-  color: black;
-}
-
 .fab, .fas {
-  font-size: 40px;
-}
-
-.fa-arrow-alt-circle-down {
-  bottom: 0;
+  font-size: 60px;
+  text-decoration: none;
+  color: grey;
 }
 /*# sourceMappingURL=style.css.map */

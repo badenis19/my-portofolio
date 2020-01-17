@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
 html {
     scroll-behavior: smooth;
     box-sizing: border-box;
@@ -7,6 +9,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 .main {
@@ -27,6 +30,25 @@ body {
     border-bottom: 1px solid lightgray;
     background: white;
 }
+
+.links {
+    display: flex;
+    // border: 2px solid black;
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    a {
+        text-decoration: none;
+        color: gray;
+
+        &:hover{
+            color: black;
+        }
+    }
+}
+
 
 #top {
     width: 100vw;
@@ -59,6 +81,10 @@ body {
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
+
+                i:hover {
+                    color: black;
+                }
         }
     }
      
@@ -67,6 +93,7 @@ body {
         height: 300px;
         border-radius: 50%;
         border: 1px solid lightgray;
+        animation: float 6s ease-in-out infinite;
     }
 }
 
@@ -80,9 +107,10 @@ body {
     align-items: center;
 
     .about {
-        border: 2px solid green;
+        // border: 2px solid green;
         width: 80vw;
         height: 20vh;
+        text-align: center;
     }
 
     .skills {
@@ -98,6 +126,20 @@ body {
             width: 15vw;
             height: 30vh;
             box-shadow: 0 0 5px rgb(230,230,230);
+
+            h3, p {
+                text-align: center;
+            }
+
+            i {
+                text-align: center;
+            }
+
+            .icon-container {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 35px;
+            }
         }
     }
 }
@@ -105,7 +147,7 @@ body {
 #bottom {
     width: 100vw;
     height: 100vh;
-    border: 2px solid yellow;
+    // border: 2px solid yellow;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -279,27 +321,9 @@ body {
     }
 }
 
-
-
-.links {
-    display: flex;
-    // border: 2px solid black;
-    width: 20%;
-    justify-content: space-around;
-    align-items: center;
-
-    a {
-        text-decoration: none;
-        color: black;
-    }
-}
-
 .fab, .fas {
-    font-size: 40px;
-}
-
-.fa-arrow-alt-circle-down {
-    
-    bottom: 0;
+    font-size: 60px;
+    text-decoration: none;
+    color: grey;
 }
 
