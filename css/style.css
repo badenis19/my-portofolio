@@ -155,7 +155,7 @@ body {
 
 #middle .about {
   width: 80vw;
-  height: 20vh;
+  height: 15vh;
   text-align: center;
 }
 
@@ -185,7 +185,6 @@ body {
 
 #middle .skills .box i {
   text-align: center;
-  margin-right: 20px;
   color: #3B638A;
 }
 
@@ -245,7 +244,6 @@ body {
 
 #bottom .main-work .work-top .work-sect1 {
   width: 45vw;
-  border-right: 1px solid lightgray;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -298,8 +296,10 @@ body {
 }
 
 #bottom .main-work .work-top .work-sect1 .description {
-  height: 40vh;
+  height: 35vh;
   width: 30%;
+  -webkit-box-shadow: 0 0 5px #e6e6e6;
+          box-shadow: 0 0 5px #e6e6e6;
   margin: 20px;
 }
 
@@ -361,8 +361,10 @@ body {
 }
 
 #bottom .main-work .work-top .work-sect2 .description {
-  height: 40vh;
+  height: 35vh;
   width: 30%;
+  -webkit-box-shadow: 0 0 5px #e6e6e6;
+          box-shadow: 0 0 5px #e6e6e6;
   margin: 20px;
 }
 
