@@ -205,6 +205,14 @@ body {
           box-shadow: 0 0 5px #e6e6e6;
 }
 
+#middle .technologies .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 #middle .technologies h3 {
   text-align: center;
 }
@@ -239,11 +247,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 6px;
+  padding-bottom: 14px;
 }
 
 #bottom .main-work .work-top .work-sect1 {
   width: 45vw;
+  border-right: 1px solid lightgray;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

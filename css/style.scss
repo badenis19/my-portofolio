@@ -161,6 +161,11 @@ body {
         height: 20vh;
         box-shadow: 0 0 5px rgb(230,230,230);
 
+        .box {
+            display: flex; 
+            justify-content: space-around;
+        }
+
         h3 {
             text-align: center;
         }
@@ -186,11 +191,11 @@ body {
             height: 40vh;
             border-bottom: 1px solid lightgray ;
             display: flex;
-            padding-bottom: 6px;
+            padding-bottom: 14px;
 
             .work-sect1 {
                 width: 45vw;
-                // border-right: 1px solid lightgray;
+                border-right: 1px solid lightgray;
                 display: flex;
 
                 .image-area {
