@@ -155,7 +155,6 @@ body {
 
 #middle .about {
   width: 80vw;
-  height: 15vh;
   text-align: center;
 }
 
@@ -174,7 +173,6 @@ body {
 
 #middle .skills .box {
   width: 15vw;
-  height: 30vh;
   -webkit-box-shadow: 0 0 5px #e6e6e6;
           box-shadow: 0 0 5px #e6e6e6;
 }
@@ -305,7 +303,6 @@ body {
 }
 
 #bottom .main-work .work-top .work-sect1 .description {
-  height: 35vh;
   width: 30%;
   -webkit-box-shadow: 0 0 5px #e6e6e6;
           box-shadow: 0 0 5px #e6e6e6;
@@ -370,7 +367,6 @@ body {
 }
 
 #bottom .main-work .work-top .work-sect2 .description {
-  height: 35vh;
   width: 30%;
   -webkit-box-shadow: 0 0 5px #e6e6e6;
           box-shadow: 0 0 5px #e6e6e6;
@@ -430,8 +426,88 @@ body {
      object-fit: cover;
 }
 
-.fab, .fas {
-  font-size: 60px;
+.fab, .fas, .far {
+  font-size: 50px;
   text-decoration: none;
+  margin: 7px;
+}
+
+@media only screen and (max-width: 930px) {
+  #middle {
+    padding-top: 50px;
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #middle .about {
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  #middle .skills {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 70px;
+  }
+  #middle .skills .box {
+    width: 100vw;
+    -webkit-box-shadow: 0 0 5px #e6e6e6;
+            box-shadow: 0 0 5px #e6e6e6;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+  }
+  #middle .skills .box h3, #middle .skills .box p {
+    text-align: center;
+    margin: 0;
+  }
+  #middle .skills .box i {
+    text-align: center;
+    color: #3B638A;
+    font-size: 40px;
+  }
+  #middle .skills .box .icon-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 0;
+  }
+  #middle .technologies {
+    display: none;
+    width: 100vw;
+    -webkit-box-shadow: 0 0 5px #e6e6e6;
+            box-shadow: 0 0 5px #e6e6e6;
+  }
+  #middle .technologies .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #middle .technologies h3 {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
