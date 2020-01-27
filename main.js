@@ -1,8 +1,11 @@
 let burgerMenuButton = document.querySelector("#menuButton");
-let burgerMenu = document.querySelector("#menu");
+
+let menu = document.querySelector(".menu");
 
 if (burgerMenuButton) {
     burgerMenuButton.addEventListener("click",(e) => {
-        burgerMenu.toggle
+        console.log("OK");
+        menu.classList.toggle("no-display")
+        
     })
 }

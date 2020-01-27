@@ -22,6 +22,41 @@ body {
           flex-direction: column;
 }
 
+.no-display {
+  visibility: visible !important;
+}
+
+.menu {
+  visibility: hidden;
+  background: white;
+  position: fixed;
+  right: 0;
+  top: 5%;
+  padding: 1%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: lightgray;
+}
+
+.menu div {
+  margin-bottom: 5px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: gray;
+  margin-bottom: 30px;
+}
+
+.menu a:hover {
+  color: black;
+}
+
 .navbar {
   height: 5%;
   width: 100vw;
@@ -35,6 +70,12 @@ body {
   z-index: 900;
   border-bottom: 1px solid lightgray;
   background: white;
+}
+
+#menuButton {
+  visibility: hidden;
+  height: 20px;
+  width: 20px;
 }
 
 .links {
@@ -433,6 +474,33 @@ body {
 }
 
 @media only screen and (max-width: 930px) {
+  body {
+    background: red;
+  }
+  #menuButton {
+    visibility: visible;
+    height: 20px;
+    width: 20px;
+  }
+  .links {
+    visibility: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 20%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .links a {
+    text-decoration: none;
+    color: gray;
+  }
+  .links a:hover {
+    color: black;
+  }
   #middle {
     padding-top: 50px;
     width: 100vw;

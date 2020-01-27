@@ -19,6 +19,40 @@ body {
     // border: 2px solid black;
 }
 
+.no-display {
+    // display: none;
+    visibility: visible !important;
+}
+
+
+.menu {
+    visibility: hidden;
+    background: white;
+    position: fixed;
+    right: 0;
+    top: 5%;
+    
+    // width: 20%;
+    padding: 1%;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: lightgray;
+    
+    div {
+        margin-bottom: 5px
+    }
+
+    a {
+        text-decoration: none;
+        color: gray;
+        margin-bottom: 30px;
+
+        &:hover{
+            color: black;
+        }
+    }
+}
+
 .navbar {
     // border: 2px solid black;
     height: 5%;
@@ -32,9 +66,9 @@ body {
 }
 
 #menuButton {
+    visibility: hidden;
     height: 20px;
     width: 20px;
-    background: grey;
 }
 
 .links {
@@ -64,6 +98,7 @@ body {
     h1, p {
         color: white;
     }
+
 
     .top-container {
         height: 100%;
@@ -359,7 +394,32 @@ body {
 
 @media only screen and (max-width: 930px) {
     body {
-    //   background: red;
+      background: red;
+    }
+
+    #menuButton {
+        visibility: visible;
+        height: 20px;
+        width: 20px;
+    }
+
+
+    .links {
+        visibility: hidden;
+        display: flex;
+        width: 20%;
+        justify-content: space-around;
+        align-items: center;
+        
+    
+        a {
+            text-decoration: none;
+            color: gray;
+    
+            &:hover{
+                color: black;
+            }
+        }
     }
 
     #middle {
