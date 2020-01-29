@@ -32,7 +32,7 @@ body {
   position: fixed;
   right: 0;
   top: 5%;
-  padding: 1%;
+  padding: 3%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -145,6 +145,10 @@ body {
   padding-top: 100px;
 }
 
+#top .top-container .container-top-part p {
+  text-align: center;
+}
+
 #top .top-container .container-bottom-part {
   width: 100%;
   height: 30%;
@@ -181,7 +185,7 @@ body {
 }
 
 #middle {
-  padding-top: 50px;
+  padding-top: 41px;
   width: 100vw;
   height: 100vh;
   display: -webkit-box;
@@ -289,6 +293,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 14px;
+  margin-bottom: 15px;
 }
 
 #bottom .main-work .work-top .work-sect1 {
@@ -449,12 +454,25 @@ body {
 
 #bottom .main-work .work-bottom .work-bottom-container .mob-description {
   width: 30%;
-  -webkit-box-shadow: 0 0 5px #e6e6e6;
-          box-shadow: 0 0 5px #e6e6e6;
 }
 
 #bottom .main-work .work-bottom .work-bottom-container .mob-description p, #bottom .main-work .work-bottom .work-bottom-container .mob-description h3 {
   text-align: center;
+}
+
+#bottom .main-work .work-bottom .work-bottom-container .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#bottom .main-work .work-bottom .work-bottom-container .images .mob-image {
+  width: 15%;
+  -webkit-box-shadow: 0 0 5px #e6e6e6;
+          box-shadow: 0 0 5px #e6e6e6;
 }
 
 #bottom .main-work .work-bottom .mob-image {
@@ -510,6 +528,9 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  #middle h2 {
+    margin: 0;
   }
   #middle .about {
     width: 100vw;
@@ -612,9 +633,9 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     margin-bottom: 20px;
   }
   #bottom .main-work .work-top .work-sect1 .image-area {
@@ -659,8 +680,6 @@ body {
   }
   #bottom .main-work .work-top .work-sect1 .description {
     width: 100%;
-    -webkit-box-shadow: 0 0 5px #e6e6e6;
-            box-shadow: 0 0 5px #e6e6e6;
     margin: 0;
   }
   #bottom .main-work .work-top .work-sect1 .description p, #bottom .main-work .work-top .work-sect1 .description h3 {
@@ -672,9 +691,9 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   #bottom .main-work .work-top .work-sect2 .image-area-2 {
     height: 40vh;
@@ -719,8 +738,6 @@ body {
   }
   #bottom .main-work .work-top .work-sect2 .description {
     width: 100%;
-    -webkit-box-shadow: 0 0 5px #e6e6e6;
-            box-shadow: 0 0 5px #e6e6e6;
     margin: 0;
   }
   #bottom .main-work .work-top .work-sect2 .description p, #bottom .main-work .work-top .work-sect2 .description h3 {
@@ -747,9 +764,9 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -765,18 +782,13 @@ body {
   #bottom .main-work .work-bottom .work-bottom-container .mob-description p, #bottom .main-work .work-bottom .work-bottom-container .mob-description h3 {
     text-align: center;
   }
-  #bottom .main-work .work-bottom .images-halfway {
-    border: 1px solid red;
+  #bottom .main-work .work-bottom .work-bottom-container .images {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: safe;
-        -ms-flex-pack: safe;
-            justify-content: safe;
-    height: 100%;
   }
-  #bottom .main-work .work-bottom .images-halfway .mob-image {
-    width: 15%;
+  #bottom .main-work .work-bottom .work-bottom-container .images .mob-image {
+    width: 49%;
     -webkit-box-shadow: 0 0 5px #e6e6e6;
             box-shadow: 0 0 5px #e6e6e6;
     -o-object-fit: cover;
