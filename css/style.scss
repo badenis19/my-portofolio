@@ -61,8 +61,8 @@ body {
     justify-content: flex-end;
     position: fixed;
     z-index: 900;
-    border-bottom: 1px solid lightgray;
-    background: white;
+    // border-bottom: 1px solid lightgray;
+    // background: white;
 }
 
 #menuButton {
@@ -82,7 +82,7 @@ body {
 
     a {
         text-decoration: none;
-        color: gray;
+        color: white;
 
         &:hover{
             color: black;
