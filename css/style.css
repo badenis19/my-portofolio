@@ -218,6 +218,7 @@ body {
 
 #middle .skills .box {
   width: 15vw;
+  height: 266px;
   -webkit-box-shadow: 0 0 5px #e6e6e6;
           box-shadow: 0 0 5px #e6e6e6;
 }
@@ -256,7 +257,7 @@ body {
       justify-content: space-around;
 }
 
-#middle .technologies h3 {
+#middle .technologies h2 {
   text-align: center;
 }
 
@@ -801,6 +802,42 @@ body {
 @media (min-width: 900px) {
   .desktop-only {
     display: block;
+  }
+}
+
+@media only screen and (max-height: 820px) {
+  .navbar {
+    border: 2px solid black;
+    height: 5%;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    position: fixed;
+    z-index: 900;
+    background: red;
+    color: black;
+  }
+  .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 20%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .links a {
+    text-decoration: none;
+    color: grey;
+  }
+  .links a:hover {
+    color: black;
   }
 }
 /*# sourceMappingURL=style.css.map */

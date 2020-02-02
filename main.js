@@ -6,3 +6,4 @@ if (burgerMenuButton) {
         menu.classList.toggle("no-display")
     })
 }
+

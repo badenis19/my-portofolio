@@ -175,13 +175,13 @@ body {
         display: flex;
         justify-content: space-around;
         align-items: center;
-
+        
         
 
         .box {
             // border: 2px solid green;
             width: 15vw;
-            // height: 30vh;
+            height: 266px;
             box-shadow: 0 0 5px rgb(230,230,230);
 
             h3, p {
@@ -211,7 +211,7 @@ body {
             justify-content: space-around;
         }
 
-        h3 {
+        h2 {
             text-align: center;
         }
     }
@@ -703,5 +703,38 @@ body {
   @media(min-width: 900px) {
     .desktop-only {
       display: block;
+    }
+  }
+
+
+  @media only screen and (max-height: 820px) {
+    .navbar {
+        border: 2px solid black;
+        height: 5%;
+        width: 100vw;
+        display: flex; 
+        justify-content: flex-end;
+        position: fixed;
+        z-index: 900;
+        // border-bottom: 1px solid lightgray;
+        background: red;
+        color: black;
+    }
+
+    .links {
+        display: flex;
+        width: 20%;
+        justify-content: space-around;
+        align-items: center;
+        
+
+        a {
+            text-decoration: none;
+            color: grey;
+    
+            &:hover{
+                color: black;
+            }
+        }
     }
   }
