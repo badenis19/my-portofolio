@@ -3,7 +3,6 @@
 html {
     scroll-behavior: smooth;
     box-sizing: border-box;
-    // background-color: #F7F7F7;
 }
 
 body {
@@ -16,11 +15,9 @@ body {
     width: 100vw;
     display: flex;
     flex-direction: column;
-    // border: 2px solid black;
 }
 
 .no-display {
-    // display: none;
     visibility: visible !important;
 }
 
@@ -31,8 +28,6 @@ body {
     position: fixed;
     right: 0;
     top: 5%;
-    
-    // width: 20%;
     padding: 3%;
     flex-direction: column;
     align-items: center;
@@ -54,17 +49,12 @@ body {
 }
 
 .navbar {
-    // border: 2px solid black;
     height: 5%;
     width: 100vw;
     display: flex; 
     justify-content: flex-end;
     position: fixed;
-    // border-bottom: 1px solid lightgray;
-    // background: white;
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
-    // border-bottom: 1px solid lightgray;
-    // background: white;
 }
 
 #menuButton {
@@ -85,8 +75,7 @@ body {
     a {
         text-decoration: none;
         color: white;
-        // color: black;
-
+    
         &:hover{
             color: black;
         }
@@ -100,7 +89,7 @@ body {
     background-image: url("https://images.unsplash.com/photo-1546307401-225bc045bb44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80");
     background-position: center;
     
-    h1, p {
+    h1, h2, p {
         color: white;
     }
 
@@ -114,7 +103,6 @@ body {
         .container-top-part {
             width: 100%;
             height: 70%;
-            // border: 2px solid black;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
@@ -129,7 +117,6 @@ body {
         .container-bottom-part {
             width: 100%;
             height: 30%;
-            // border: 2px solid black;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -158,17 +145,13 @@ body {
     padding-top: 41px;
     width: 100vw;
     height: 100vh;
-    // border: 2px solid green;
     display: flex;
     flex-direction: column;
-    // justify-content: space-evenly;
     align-items: center;
 
 
     .about {
-        // border: 2px solid green;
         width: 80vw;
-        // height: 15vh;
         text-align: center;
     }
 
@@ -182,7 +165,6 @@ body {
         
 
         .box {
-            // border: 2px solid green;
             width: 15vw;
             height: 266px;
             box-shadow: 0 0 5px rgb(230,230,230);
@@ -206,8 +188,8 @@ body {
 
     .technologies {
         width: 80vw;
-        height: 20vh;
         box-shadow: 0 0 5px rgb(230,230,230);
+        padding-bottom: 20px;
 
         .box {
             display: flex; 
@@ -223,7 +205,6 @@ body {
 #bottom {
     width: 100vw;
     height: 100vh;
-    // border: 2px solid yellow;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -232,7 +213,6 @@ body {
     .main-work {
         width: 90vw;
         height: 80vh;
-        // border: 2px solid blue;
 
         .work-top {
             width: 90vw;
@@ -250,14 +230,12 @@ body {
                 .image-area {
                     height: 40vh;
                     width: 70%;
-                    // border: 2px solid red;
                     display: flex;
                     flex-direction: column;
                     
                     .img-top {
                         height: 50%;
                         width: 100%;
-                        // border: 2px solid black;
                         display: flex;
                         
                         .img-top-left {
@@ -271,7 +249,6 @@ body {
                     .img-bottom {
                         height: 50%;
                         width: 100%;
-                        // border: 2px solid black;
                         display: flex;
                         flex-direction: row-reverse;
 
@@ -284,11 +261,9 @@ body {
                 }
 
                 .description {
-                    // height: 35vh;
                     width: 30%;
                     box-shadow: 0 0 5px rgb(230,230,230);
                     margin: 0 20px;
-                    // border: 2px solid red;
                     
                     p, h3 {
                         text-align: center;
@@ -303,7 +278,6 @@ body {
                 .image-area-2 {
                     height: 40vh;
                     width: 70%;
-                    // border: 2px solid yellow;
                     display: flex;
                     flex-direction: column;
 
@@ -311,7 +285,6 @@ body {
                     .img-top-2 {
                         height: 50%;
                         width: 100%;
-                        // border: 2px solid black;
                         display: flex;
                         flex-direction: row-reverse;
                         
@@ -320,8 +293,6 @@ body {
                             height: 100%;
                             width: 50%;
                             box-shadow: 0 0 5px rgb(230,230,230);
-                            // border: 2px solid green;
-                            // background-image: url("https://images.unsplash.com/photo-1577800351051-ca84c38a4152?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
                         }
 
                     }
@@ -340,11 +311,9 @@ body {
                 }
 
                 .description {
-                    // height: 35vh;
                     width: 30%;
                     box-shadow: 0 0 5px rgb(230,230,230);
                     margin: 20px;
-                    // border: 2px solid red;
                     
                     p, h3 {
                         text-align: center;
@@ -355,26 +324,19 @@ body {
 
         .work-bottom {
             width: 90vw;
-            // height: 40vh;
-            // border: 2px solid green;
             display: flex;
             justify-content: center;
             align-items: center;
-            // padding-bottom: 3px;
 
             .work-bottom-container {
-                // border: 2px solid red;
                 width: 80%;
-                // height: 90%;
                 margin: 0;
                 display: flex;
                 justify-content: space-between ;
                 align-items: center;
 
                 .mob-description {
-                    // height: 95%;
                     width: 60%;
-                    // border: 2px solid black;
                     box-shadow: 0 0 5px rgb(230,230,230);
 
                     p, h3 {
@@ -385,7 +347,6 @@ body {
                 .images {
                     display: flex;
                     justify-content: space-evenly;
-                    // height: 100%;
 
                     .mob-image {
                         width: 15%;

@@ -108,7 +108,7 @@ body {
   background-position: center;
 }
 
-#top h1, #top p {
+#top h1, #top h2, #top p {
   color: white;
 }
 
@@ -246,9 +246,9 @@ body {
 
 #middle .technologies {
   width: 80vw;
-  height: 20vh;
   -webkit-box-shadow: 0 0 5px #e6e6e6;
           box-shadow: 0 0 5px #e6e6e6;
+  padding-bottom: 20px;
 }
 
 #middle .technologies .box {
