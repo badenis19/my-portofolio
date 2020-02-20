@@ -262,11 +262,12 @@ body {
 
                 .description {
                     width: 30%;
-                    box-shadow: 0 0 5px rgb(230,230,230);
+                    // box-shadow: 0 0 5px rgb(230,230,230);
                     margin: 0 20px;
                     
                     p, h3 {
                         text-align: center;
+                        margin: 5px 0;
                     }        
                 }
             }
@@ -312,11 +313,12 @@ body {
 
                 .description {
                     width: 30%;
-                    box-shadow: 0 0 5px rgb(230,230,230);
-                    margin: 20px;
+                    // box-shadow: 0 0 5px rgb(230,230,230);
+                    margin: 0 20px;
                     
                     p, h3 {
                         text-align: center;
+                        margin: 5px 0;
                     }    
                 }
             }
@@ -337,10 +339,12 @@ body {
 
                 .mob-description {
                     width: 60%;
-                    box-shadow: 0 0 5px rgb(230,230,230);
+                    // box-shadow: 0 0 5px rgb(230,230,230);
+                    margin: 0 20px;
 
                     p, h3 {
                         text-align: center;
+                        margin: 5px 0;
                     }
                 }
 
@@ -640,8 +644,14 @@ body {
     display: none;
   }
   
-  @media(min-width: 900px) {
+  @media(min-width: 1024px) {
     .desktop-only {
       display: block;
     }
+  }
+
+  .port-title {
+    text-decoration: underline;
+    //   border: 1px solid red;
+    //   height: %;
   }
