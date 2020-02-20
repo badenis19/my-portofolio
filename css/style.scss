@@ -28,7 +28,7 @@ body {
     position: fixed;
     right: 0;
     top: 5%;
-    padding: 3%;
+    padding: 2%;
     flex-direction: column;
     align-items: center;
     border-bottom: lightgray;
@@ -505,6 +505,7 @@ body {
                     display: flex;
                     flex-direction: column-reverse;
                     margin-bottom: 20px;
+                    border: none;
     
                     .image-area {
                         height: 40vh;
@@ -603,7 +604,7 @@ body {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                padding-top: 664px;
+                padding-top: 540px;
     
                 .work-bottom-container {
                     width:100%;
@@ -616,7 +617,7 @@ body {
     
                     .mob-description {
                         width: 100%;
-                        box-shadow: 0 0 5px rgb(230,230,230);
+                        // box-shadow: 0 0 5px rgb(230,230,230);
     
                         p, h3 {
                             text-align: center;
@@ -628,7 +629,7 @@ body {
 
                         .mob-image {
                             width: 49%;
-                            box-shadow: 0 0 5px rgb(230,230,230);
+                            // box-shadow: 0 0 5px rgb(230,230,230);
                             object-fit: cover;
                         }
                     }
