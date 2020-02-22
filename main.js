@@ -28,7 +28,8 @@ window.onscroll = function () {
         })
 
     } else {
-        console.log(currentScrollPos)
+        console.log(currentScrollPos);
+        menu.style.border = "1px solid lightgrey"
         links_array.forEach((link) => {
             link.style.color = "black";
         })

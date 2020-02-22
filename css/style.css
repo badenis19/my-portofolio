@@ -637,7 +637,7 @@ body {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    margin-bottom: 20px;
+    margin-bottom: 33px;
     border: none;
   }
   #bottom .main-work .work-top .work-sect1 .image-area {
