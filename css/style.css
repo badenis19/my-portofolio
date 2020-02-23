@@ -112,6 +112,10 @@ body {
   color: white;
 }
 
+#top h2 {
+  text-align: center;
+}
+
 #top .top-container {
   height: 100%;
   width: 100%;
@@ -198,15 +202,17 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 70px;
 }
 
 #middle .about {
   width: 80vw;
-  text-align: center;
+  text-align: justify;
+  margin-bottom: 15px;
 }
 
 #middle .skills {
-  width: 60vw;
+  width: 70vw;
   height: 40vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -216,17 +222,19 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 40px;
 }
 
 #middle .skills .box {
-  width: 15vw;
-  height: 266px;
+  width: 20vw;
+  height: 325px;
   -webkit-box-shadow: 0 0 5px #e6e6e6;
           box-shadow: 0 0 5px #e6e6e6;
 }
 
 #middle .skills .box h3, #middle .skills .box p {
   text-align: center;
+  padding: 0 8px;
 }
 
 #middle .skills .box i {
