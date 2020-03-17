@@ -199,6 +199,8 @@ body {
         width: 80vw;
         box-shadow: 0 0 5px rgb(230,230,230);
         padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
 
         .box {
             display: flex; 
@@ -658,8 +660,8 @@ body {
   }
 
   .blue-pill {
-    display: inline-block;
-    background: blue;
+    // display: block;
+    background: #3B638A;
     color: white;
     border-radius: 4px;
     padding: 5px;
