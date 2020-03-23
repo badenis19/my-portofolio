@@ -196,10 +196,11 @@ body {
     }
 
     .technologies {
-        width: 80vw;
+        width: 67vw;
         box-shadow: 0 0 5px rgb(230,230,230);
         padding-bottom: 20px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
 
         .box {
@@ -210,6 +211,15 @@ body {
         h2 {
             text-align: center;
         }
+
+        .blue-pill {
+            // display: block;
+            background: #3B638A;
+            color: white;
+            border-radius: 4px;
+            padding: 5px;
+            margin: 3px;
+          }
     }
 }
 
@@ -659,11 +669,11 @@ body {
     //   height: %;
   }
 
-  .blue-pill {
-    // display: block;
-    background: #3B638A;
-    color: white;
-    border-radius: 4px;
-    padding: 5px;
-    margin: 3px;
-  }
+//   .blue-pill {
+//     // display: block;
+//     background: #3B638A;
+//     color: white;
+//     border-radius: 4px;
+//     padding: 5px;
+//     margin: 3px;
+//   }

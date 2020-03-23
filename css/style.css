@@ -253,13 +253,15 @@ body {
 }
 
 #middle .technologies {
-  width: 80vw;
+  width: 67vw;
   -webkit-box-shadow: 0 0 5px #e6e6e6;
           box-shadow: 0 0 5px #e6e6e6;
   padding-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -275,6 +277,14 @@ body {
 
 #middle .technologies h2 {
   text-align: center;
+}
+
+#middle .technologies .blue-pill {
+  background: #3B638A;
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 3px;
 }
 
 #bottom {
@@ -820,13 +830,5 @@ body {
 
 .port-title {
   text-decoration: underline;
-}
-
-.blue-pill {
-  background: #3B638A;
-  color: white;
-  border-radius: 4px;
-  padding: 5px;
-  margin: 3px;
 }
 /*# sourceMappingURL=style.css.map */
