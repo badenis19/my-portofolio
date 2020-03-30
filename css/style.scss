@@ -213,7 +213,6 @@ body {
         }
 
         .blue-pill {
-            // display: block;
             background: #3B638A;
             color: white;
             border-radius: 4px;
@@ -283,7 +282,6 @@ body {
 
                 .description {
                     width: 30%;
-                    // box-shadow: 0 0 5px rgb(230,230,230);
                     margin: 0 20px;
                     
                     p, h3 {
@@ -334,7 +332,6 @@ body {
 
                 .description {
                     width: 30%;
-                    // box-shadow: 0 0 5px rgb(230,230,230);
                     margin: 0 20px;
                     
                     p, h3 {
@@ -360,7 +357,6 @@ body {
 
                 .mob-description {
                     width: 60%;
-                    // box-shadow: 0 0 5px rgb(230,230,230);
                     margin: 0 20px;
 
                     p, h3 {
@@ -375,18 +371,13 @@ body {
 
                     .mob-image {
                         width: 15%;
-                        // height: 95%;
-                        // border: 2px solid black;
                         box-shadow: 0 0 5px rgb(230,230,230);
-                        // object-fit: cover;
                     }
                 }
             }
 
             .mob-image {
                 width: 49%;
-                // height: 95%;
-                // border: 2px solid black;
                 box-shadow: 0 0 5px rgb(230,230,230);
                 object-fit: cover;
             }
@@ -641,7 +632,6 @@ body {
 
                         .mob-image {
                             width: 49%;
-                            // box-shadow: 0 0 5px rgb(230,230,230);
                             object-fit: cover;
                         }
                     }
@@ -665,15 +655,5 @@ body {
 
   .port-title {
     text-decoration: underline;
-    //   border: 1px solid red;
-    //   height: %;
   }
 
-//   .blue-pill {
-//     // display: block;
-//     background: #3B638A;
-//     color: white;
-//     border-radius: 4px;
-//     padding: 5px;
-//     margin: 3px;
-//   }
