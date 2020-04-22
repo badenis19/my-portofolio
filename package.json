@@ -1,0 +1,19 @@
+{
+  "name": "my-portofolio",
+  "version": "1.0.0",
+  "description": "my portofolio",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badenis19/my-portofolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badenis19/my-portofolio/issues"
+  },
+  "homepage": "https://github.com/badenis19/my-portofolio#readme"
+}
