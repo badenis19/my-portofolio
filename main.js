@@ -1,3 +1,6 @@
+// To upload static website
+// https://medium.com/@agavitalis/how-to-deploy-a-simple-static-html-website-on-heroku-492697238e48
+
 /* ================= FOR THE BURGER MENU ON SMALLER SCREENS ================= */
 
 let burgerMenuButton = document.querySelector("#menuButton");
