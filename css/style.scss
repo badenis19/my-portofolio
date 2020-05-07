@@ -163,33 +163,38 @@ body {
 }
 
 #middle {
-    padding-top: 41px;
+    padding-top: 5vh;
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 70px;
+    // margin-bottom: 70px;
+    justify-content: space-around;
 
 
     .about {
-        width: 80vw;
+        width: 70vw;
+        height: 15vh;
         text-align: justify;
-        margin-bottom: 15px;
-        border: 1px solid red;
+        // margin-bottom: 15px;
+        // border: 1px solid red;
+
+        h2 {
+            text-align: center;
+            margin: 0px;
+        }
     }
 
     .skills {
         width: 70vw;
-        height: 40vh;
+        height: 45vh; // sum does not make 100% to leave space for space around
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-bottom: 40px;
-        border: 1px solid red;
+        // margin-bottom: 40px;
+        // border: 1px solid red;
         
-        
-
         .box {
             width: 20vw;
             height: 325px;
@@ -209,18 +214,19 @@ body {
             .icon-container {
                 display: flex;
                 justify-content: center;
-                margin-bottom: 35px;
+                margin-bottom: 15px;
             }
         }
     }
 
     .technologies {
         width: 67vw;
+        height: 20vh;
         box-shadow: 0 0 5px rgb(230,230,230);
         padding-bottom: 20px;
         justify-content: center;
         flex-direction: column;
-        border: 1px solid red;
+        // border: 1px solid red;
         
         // .box {
             //     display: flex; 
@@ -244,6 +250,20 @@ body {
             padding: 5px;
             margin: 3px;
           }
+    }
+
+    .container-arrow {
+        width: 100vw;
+        height: 10vh;
+        text-align: center;
+
+        i {
+            color: black;
+        }
+
+        i:hover {
+            color: black;
+        }
     }
 }
 

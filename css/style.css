@@ -204,7 +204,7 @@ body {
 }
 
 #middle {
-  padding-top: 41px;
+  padding-top: 5vh;
   width: 100vw;
   height: 100vh;
   display: -webkit-box;
@@ -217,19 +217,24 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 70px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 #middle .about {
-  width: 80vw;
+  width: 70vw;
+  height: 15vh;
   text-align: justify;
-  margin-bottom: 15px;
-  border: 1px solid red;
+}
+
+#middle .about h2 {
+  text-align: center;
+  margin: 0px;
 }
 
 #middle .skills {
   width: 70vw;
-  height: 40vh;
+  height: 45vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -238,8 +243,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 40px;
-  border: 1px solid red;
 }
 
 #middle .skills .box {
@@ -266,11 +269,12 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
 }
 
 #middle .technologies {
   width: 67vw;
+  height: 20vh;
   -webkit-box-shadow: 0 0 5px #e6e6e6;
           box-shadow: 0 0 5px #e6e6e6;
   padding-bottom: 20px;
@@ -281,7 +285,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 1px solid red;
 }
 
 #middle .technologies h2 {
@@ -305,6 +308,20 @@ body {
   border-radius: 4px;
   padding: 5px;
   margin: 3px;
+}
+
+#middle .container-arrow {
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+}
+
+#middle .container-arrow i {
+  color: black;
+}
+
+#middle .container-arrow i:hover {
+  color: black;
 }
 
 #bottom {
