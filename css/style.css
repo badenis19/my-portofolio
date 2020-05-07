@@ -58,7 +58,7 @@ body {
 }
 
 .navbar {
-  height: 5%;
+  height: 5vh;
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,6 +70,7 @@ body {
   -webkit-transition: top 0.3s;
   transition: top 0.3s;
   /* Transition effect when sliding down (and up) */
+  border: 1px solid black;
 }
 
 #menuButton {
@@ -117,8 +118,8 @@ body {
 }
 
 #top .top-container {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -132,8 +133,8 @@ body {
 }
 
 #top .top-container .container-top-part {
-  width: 100%;
-  height: 70%;
+  width: 100vw;
+  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -146,7 +147,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 100px;
+  padding-top: 9%;
 }
 
 #top .top-container .container-top-part p {
@@ -154,8 +155,8 @@ body {
 }
 
 #top .top-container .container-bottom-part {
-  width: 100%;
-  height: 30%;
+  width: 100vw;
+  height: 20vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -176,6 +177,20 @@ body {
 }
 
 #top .top-container .container-bottom-part i:hover {
+  color: black;
+}
+
+#top .top-container .container-arrow {
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+}
+
+#top .top-container .container-arrow i {
+  color: white;
+}
+
+#top .top-container .container-arrow i:hover {
   color: black;
 }
 
@@ -209,6 +224,7 @@ body {
   width: 80vw;
   text-align: justify;
   margin-bottom: 15px;
+  border: 1px solid red;
 }
 
 #middle .skills {
@@ -223,6 +239,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 40px;
+  border: 1px solid red;
 }
 
 #middle .skills .box {
@@ -257,26 +274,29 @@ body {
   -webkit-box-shadow: 0 0 5px #e6e6e6;
           box-shadow: 0 0 5px #e6e6e6;
   padding-bottom: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-#middle .technologies .box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid red;
 }
 
 #middle .technologies h2 {
   text-align: center;
+}
+
+#middle .technologies .pills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #middle .technologies .blue-pill {
