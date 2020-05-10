@@ -112,7 +112,7 @@ body {
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
-            padding-top: 9%;
+            padding-top: 6%;
 
             p {
                 text-align: center;
@@ -270,14 +270,25 @@ body {
 #bottom {
     width: 100vw;
     height: 100vh;
+    padding-top: 5vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    // justify-content: space-around;
     flex-direction: column;
+
+    h2 {
+        margin-top: 0;
+    }
+
+    .title-page {
+        margin-top: 1%;
+        height: 5vh;
+        margin-bottom: 3%;
+    }
 
     .main-work {
         width: 90vw;
-        height: 80vh;
+        height: 92vh;
 
         .work-top {
             width: 90vw;
@@ -392,6 +403,7 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
+            
 
             .work-bottom-container {
                 width: 80%;
@@ -462,12 +474,14 @@ body {
     }
 
     #middle {
-        padding-top: 50px;
+        padding-top: 0px;
         width: 100vw;
         height: 100vh;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        border: 1px solid red;
+        // flex-direction: column;
+        // align-items: center;
+        // justify-content: space-between;
         
         h2 {
             margin: 0;
@@ -476,7 +490,7 @@ body {
         .about {
             width: 100vw;
             text-align: center;
-            margin-bottom: 100px;
+            // margin-bottom: 100px;
         }
     
         .skills {
@@ -491,7 +505,7 @@ body {
                 box-shadow: 0 0 5px rgb(230,230,230);
                 padding-bottom: 15px;
                 padding-top: 15px;
-                margin-bottom: 30px;
+                // margin-bottom: 30px;
     
                 h3, p {
                     text-align: center;
