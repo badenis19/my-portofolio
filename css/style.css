@@ -590,7 +590,9 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    border: 1px solid red;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   #middle h2 {
     margin: 0;
@@ -598,6 +600,7 @@ body {
   #middle .about {
     width: 100vw;
     text-align: center;
+    visibility: hidden;
   }
   #middle .skills {
     width: 100vw;
@@ -653,6 +656,14 @@ body {
   }
   #middle .technologies h3 {
     text-align: center;
+  }
+  #middle .container-arrow {
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+  }
+  #middle .container-arrow i {
+    color: black;
   }
   #bottom {
     width: 100vw;
