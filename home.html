@@ -4,196 +4,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/21a3ae5d42.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Responsive</title>
 </head>
 
 <body>
-    <div class="main">
-        <div class="navbar">
-            <div class="links">
-                <div><a href="#top">Home</a></div>
-                <div> <a href="#middle">About</a></div>
-                <div><a href="#bottom">Portofolio</a></div>
-            </div>
-            <span><i id="menuButton" class="fas fa-bars"></i></span>
+    <nav class="site-nav grid">
+        <h1>Bruno ADENIS</h1>
+        <ul>
+            <li><a href="#portofolio">Portofolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="welcome" class="grid">
+        <!-- on the left -->
+        <div class="welcome-text">
+            <h2>Fitness Enthusiast <br /> & Full-Stack Developer</h2>
+            <p class="leading">London-based Full-Stack developer which huge passion for Technology, Music and Fitness.</p>
+            <a href="#portofolio" class="button">View my work</a>
         </div>
 
-        <div id="top">
-            <div class="top-container">
-
-                <div class="container-top-part">
-                    <div class="menu">
-                        <div><a href="#top">Home</a></div>
-                        <div><a href="#middle">About</a></div>
-                        <div><a href="#bottom">Portofolio</a></div>
-                    </div>
-
-                    <h1>Bruno ADENIS</h1>
-                    <div>
-                        <h2>London based Full-Stack Developer</h2>
-                    </div>
-                    <div>
-                        <img class="avatar" src="images/ba.jpeg" alt="">
-                    </div>
-                </div>
-
-                <div class="container-bottom-part">
-                    <div class="contact-me">
-                        <span><a href="https://www.linkedin.com/in/brunoadenis/" target="#"><i
-                                    class="fab fa-linkedin"></i></a></span>
-                        <span><a href="mailto:adenis.bruno@hotmail.com"><i class="fas fa-envelope"></i></a></span>
-                        <span><a href="https://github.com/badenis19" target="#"><i class="fab fa-github"></i></a></span>
-                    </div>
-                </div>
-                <div class="container-arrow">
-                    <div><a href="#middle"><i class="fas fa-chevron-down"></i></a></div>
-                </div>
-            </div>
-
+        <!-- on the right -->
+        <div class="welcome-img">
+            <img src="/assets/badenis.jpeg" alt="picture">
         </div>
+    </section>
 
-        <div id="middle">
-          
-            <div class="about">
-                <h2>About me</h2>
-                <p> My name is Bruno Adenis. I'm a London-based Full-Stack developer who is ambitious, curious and a fast learner. I am  bilingual with
-                    4+ years of experience in working
-                    as a technical engineer in the Fintech and Audio-Visuals industry. My passion for technology and
-                    desire to build my own product motivated me to start a new career as a developer.
-                    Having completed the #1 web development Bootcamp in the world, Le Wagon, I am actively looking for
-                    an opportunity to join a Tech company as a developer.</p>
-            </div>
-
-            <div class="skills">
-                <div class="box">
-                    <h3>Website Design</h3>
-                    <div class="icon-container">
-                        <i class="fas fa-laptop-code"></i>
-                    </div>
-                    <p>I enjoy designing different types of websites, both static and dynamic, using the latest technologies and frameworks out there.</p>
-                </div>
-                <div class="box">
-                    <h3>Collaboration</h3>
-                    <div class="icon-container">
-                        <i class="fas fa-handshake"></i>
-                    </div>
-                    <p> I never stop learning. I am open to collaborations with other developers and designers. Currently, I am contributing to a Content Management System project which aims to manage artist albums, news bookings and more. </p>
-                </div>
-                <div class="box">
-                    <h3>Fitness Enthusiast</h3>
-                    <div class="icon-container">
-                        <i class="fas fa-dumbbell"></i>
-                    </div>
-                    <p>I love to train on a regular basis and challenge myself by attending a number of sports events. I also like to help others in becoming better versions of themselves as their fitness coach.</p>
-                </div>
-            </div>
-
-            <div class="technologies">
-                <div><h2>Technologies</h2></div>
-                <div class="pills">
-                    <div><p class="blue-pill">JavaScript</p></div>
-                    <div><p class="blue-pill">ES6</p></div>
-                    <div><p class="blue-pill">Node</p></div>
-                    <div><p class="blue-pill">Express</p></div>
-                    <div><p class="blue-pill">MongoDB</p></div>
-                    <div><p class="blue-pill">Ruby on Rails</p></div>
-                    <div><p class="blue-pill">React</p></div>
-                    <div><p class="blue-pill">Apollo</p></div>
-                    <div><p class="blue-pill">GraphQL</p></div>
-                    <div><p class="blue-pill">JEST</p></div>
-                    <div><p class="blue-pill">Front-end</p></div>
-                    <div><p class="blue-pill">Back-end</p></div>
-                    <div><p class="blue-pill">HTML</p></div>
-                    <div><p class="blue-pill">CSS</p></div>
-                    <div><p class="blue-pill">AJAX</p></div>
-                    <div><p class="blue-pill">GitHub</p></div>
-                    <div><p class="blue-pill">APIs</p></div>
-                    <div><p class="blue-pill">Relational databases</p></div>
-                    <div><p class="blue-pill">JSON</p></div>
-                    <div><p class="blue-pill">Scraping</p></div>
-                    <div><p class="blue-pill">SASS</p></div>
-                    <div><p class="blue-pill">Bootstrap</p></div>
-                    <div><p class="blue-pill">Git</p></div>
-                    <div><p class="blue-pill">Heroku</p></div>
-                    <div><p class="blue-pill">Technical workflow</p></div>
-                    <div><p class="blue-pill">SQL</p></div>
-                    <div><p class="blue-pill">Postgres</p></div>
-                    <div><p class="blue-pill">Test driven development</p></div>
-                    <div><p class="blue-pill">Wireframes</p></div>
-                    <div><p class="blue-pill">prototyping</p></div>
-                    <div><p class="blue-pill">UI design</p></div>
-
-                </div>
-            </div>
-
-            <div class="container-arrow">
-              <div><a href="#bottom"><i class="fas fa-chevron-down"></i></a></div>
-          </div>
+    <section id="portofolio"> 
+        <h3>Some of my Projects</h3>
+        <div class="projects grid">
+             <a href="">
+                <img src="assets/Mister_cocktail/home.png" alt="mister-cocktail">
+                <h4>Mister Cocktail</h4>
+            </a>
+            <a href="">
+                <img src="assets/Halfway/home.png" alt="Halfway">
+                <h4>Cribnb</h4>
+            </a>
+            <a href="">
+                <img src="assets/Cribnb/home.png" alt="Cribnb">
+                <h4>Halfway</h4>
+            </a>
         </div>
+    </section>
 
-        <div id="bottom">
-            <div class="title-page"><h2>Portofolio</h2></div>
+    <section id="skills">
+        <h3>Things I Can Do</h3>
+        <ul class="grid">
+            <li>
+                <h4>JavaScript</h4>
+            </li>
+            <li>
+                <h4>Ruby-on-Rails</h4>
+            </li>
+            <li>
+                <h4>React</h4>
+            </li>
+            <li>
+                <h4>API</h4>
+            </li>
+            <li>
+                <h4>Git</h4>
+            </li>
+            <li>
+                <h4>Node</h4>
+            </li>
+            <li>
+                <h4>Express</h4>
+            </li>
+            <li>
+                <h4>HTML/CSS</h4>
+            </li>
+            <li>
+                <h4>SASS</h4>
+            </li>
+            <li>
+                <h4>UI Design</h4>
+            </li>
+            <li>
+                <h4>GraphQL</h4>
+            </li>
+            <li>
+                <h4>JEST</h4>
+            </li>
+        </ul>   
+    </section>
 
-            <div class="main-work">
-                <div class="work-top">
-                    <div class="work-sect1">
+  
 
-                        <div class="image-area">
-                            <div class="img-top">
-                                <img class="img-top-left" src="./images/Cribnb/home.png" alt="Cribnb home page">
-                            </div>
-                            <div class="img-bottom">
-                                <img class="img-bottom-right" src="./images/Cribnb/show.png" alt="Cribnb appartment page">
-                            </div>
-                        </div>
-
-                        <div class="description">
-                            <div class="port-title"><h3>CRIBNB</h3></div>
-                            <p>Room booking application (Marketplace) where user can view, create and fully manage rooms
-                                in different locations. Built with Ruby on Rails, geocoding, Javascript, Ajax,
-                                ActiveRecord, HTML, SASS.</p>
-                        </div>
-                    </div>
-
-                    <div class="work-sect2">
-                        <div class="description">
-                            <div class="port-title"><h3>Mister Cocktail</h3></div>
-                            <p>Cocktail listing and creation platform where user can view, add, edit an delete
-                                cocktails. Built with Ruby on Rails, ActiveRecord, HTML, SASS.</p>
-                        </div>
-
-                        <div class="image-area-2">
-                            <div class="img-top-2">
-                                <img class="img-top-right" src="./images/Mister_cocktail/home.png" alt="Mister cocktail home page">
-                            </div>
-                            <div class="img-bottom-2">
-                                <img class="img-bottom-right" src="./images/Mister_cocktail/modal.png" alt="Mister cocktail pop-up">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="work-bottom">
-                    <div class="work-bottom-container">
-                        <div class="mob-description">
-                            <div class="port-title"><h3>Halfway</h3></div>
-                            <p>A web progressive application that provides the halfway point between 2 locations and
-                                recommends venues based on users' preferences. Also contains an integrated chat room.
-                                Ruby on Rails, geocoding, API, Javascript, Ajax, ActiveRecord, HTML, SASS.</p>
-                        </div>
-                        <div class="images">
-                            <img class="mob-image" src="./images/Halfway/home.png" alt="Halfway home">
-                            <img class="mob-image" src="./images/Halfway/index.png" alt="Halfway search result">
-                            <img class="mob-image desktop-only" src="./images/Halfway/show.png" alt="Halfway venue page">
-                            <img class="mob-image desktop-only" src="./images/Halfway/chat.png" alt="Halfway chat">
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <footer>
+        <div class="grid">
+            <p class="copyright">Copyright 2020 Bruno ADENIS</p>
+            <ul class="social">
+                <li><span><a href="https://www.linkedin.com/in/brunoadenis/" target="#"><i class="fab fa-linkedin"></i></a></span></li>
+                <li><span><a href="mailto:adenis.bruno@hotmail.com"><i class="fas fa-envelope"></i></a></span></li>
+                <li><span><a href="https://github.com/badenis19" target="#"><i class="fab fa-github"></i></a></span></li>
+            </ul>
         </div>
-        <script src="main.js"></script>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
