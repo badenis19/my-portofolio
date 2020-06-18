@@ -139,7 +139,8 @@ h4{
 }
 
 #portofolio p {
-  visibility: hidden;
+  /* visibility: hidden; */
+  display: none;
 }
 
 .projects a { /* to get every element inside <a> */
@@ -262,7 +263,7 @@ footer li {
   }
 
   #portofolio p {
-    visibility: visible;
+    display: block;
   }
   
   .projects a { 
